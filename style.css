@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
 .box {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
@@ -6,4 +8,90 @@
     justify-content: left;
     align-items: left;
     height: 700;
+
+}
+.data-container{
+    height: 650;
+    background-color: rgb(245, 245, 245);
+    width:500;
+    border-radius: 10%;
+    margin-right: 200;
+    margin-left: 100;
+    margin-top: 50;
+    margin-bottom: 50;
+    
+
+}
+.data-container h1{
+    margin-left: 105;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.image-container img{
+
+    position: relative;
+    width: 400;
+    height: 300;
+    margin-top: 200;
+    margin-left: 100;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+.image-container i{
+
+    font-size: 30;
+    color: white;
+
+}
+
+
+.heart-button{
+    
+    margin-top: 15;
+    margin-left: 200;
+    position: center;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 0px 0px 5px #777;
+    background-color: rgb(39, 174, 51);
+    align-items: left;
+    width: 100;
+    height: 100;
+    border-radius: 50%;
+
+}
+
+.eks-button {
+    
+    margin-top: 15;
+    position: center;
+    cursor: pointer;
+    border: 15;
+    background-color: rgb(174, 39, 39);
+    align-items: left;
+    border: 0;
+    box-shadow: 0px 0px 5px #777;
+    width: 100;
+    height: 100;
+    border-radius: 50%;
+
+}
+
+
+.bottom-left{
+
+    position: absolute;
+    bottom: 250px;
+    left: 930px;
+    color: white;
+    
+  
+}
+.bottom-left div{
+
+    margin: 0%;
 }
