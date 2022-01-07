@@ -22,6 +22,12 @@
     
 
 }
+.picked-container{
+    padding: 10px 20px;
+	display: flex;
+	align-items: center;
+	transition: 0.2s box-shadow;
+}
 .data-container h1{
     margin-left: 105;
     display: flex;
