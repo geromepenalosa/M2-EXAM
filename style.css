@@ -8,40 +8,53 @@
     justify-content: left;
     align-items: left;
     height: 700;
+    background-color: rgb(245, 245, 245);
 
 }
 .data-container{
-    height: 650;
-    background-color: rgb(245, 245, 245);
-    width:500;
-    border-radius: 10%;
-    margin-right: 200;
-    margin-left: 100;
-    margin-top: 50;
-    margin-bottom: 50;
     
+    height: 720;
+    background-color: white;
+    width:500;
+    margin-right: 200;
+    margin-bottom: 50;
+    box-shadow: 0px 0px 5px #777;
+    
+}
+.header-design{
+
+    background-color: #FF7F3F;
+    width: 500;
+    height: 50;
+    font-size: 30;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
 
 }
+
 .picked-container{
     padding: 10px 20px;
 	display: flex;
 	align-items: center;
 	transition: 0.2s box-shadow;
 }
+
 .data-container h1{
     margin-left: 105;
     display: flex;
     text-align: center;
     align-items: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;  
 }
+
 
 .image-container img{
 
     position: relative;
-    width: 400;
-    height: 300;
-    margin-top: 200;
+    width: 500;
+    height: 400;
+    margin-top: 130;
     margin-left: 100;
     display: flex;
     align-items: center;
@@ -58,7 +71,7 @@
 .heart-button{
     
     margin-top: 15;
-    margin-left: 200;
+    margin-left: 260;
     position: center;
     cursor: pointer;
     border: 0;
@@ -91,8 +104,8 @@
 .bottom-left{
 
     position: absolute;
-    bottom: 250px;
-    left: 930px;
+    bottom: 230px;
+    left: 850px;
     color: white;
     
   
